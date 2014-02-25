@@ -87,16 +87,6 @@ hr {
   border-top: .125rem solid #ddd;
   margin-bottom: 1.375rem;
 }
-a {
-  border-bottom: 2px solid #333;
-  color: #333;
-  text-decoration: none;
-  transition: all .125s ease-in-out;
-}
-a:hover{
-  border-bottom-color: #4a7298;
-  color: #4a7298;
-}
 
 /* General photoset style */
  .photoset {
@@ -218,11 +208,11 @@ and (max-width: 480px) {
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="http://mip.umh.es" data-bitly-type="bitly_hover_card">Home</a></li>
-              <li><a href="./acerca.htm" data-bitly-type="bitly_hover_card">Acerca</a></li>
-			  <li><a href="./programa.htm" data-bitly-type="bitly_hover_card">Programa <span class="label label-important">Nuevo!</span></a></li>
-              <li><a href="./profesores.htm" data-bitly-type="bitly_hover_card">Profesores</a></li>
-              <li><a href="./contacto.htm" data-bitly-type="bitly_hover_card">Contacto</a></li>
-              <li><a href="./preinscripcion.htm" data-bitly-type="bitly_hover_card">Preinscripción <span class="label label-success">Abierto!</span></a></li>	
+              <li><a href="http://mip.umh.es/acerca.htm" data-bitly-type="bitly_hover_card">Acerca</a></li>
+			  <li><a href="http://mip.umh.es/programa.htm" data-bitly-type="bitly_hover_card">Programa <span class="label label-important">Nuevo!</span></a></li>
+              <li><a href="http://mip.umh.es/profesores.htm" data-bitly-type="bitly_hover_card">Profesores</a></li>
+              <li><a href="http://mip.umh.es/contacto.htm" data-bitly-type="bitly_hover_card">Contacto</a></li>
+              <li><a href="http://mip.umh.es/preinscripcion.htm" data-bitly-type="bitly_hover_card">Preinscripción <span class="label label-success">Abierto!</span></a></li>	
               <li class="inverse"><a href="http://mip.umh.es/blog" data-bitly-type="bitly_hover_card">Blog <span class="label label-info">Noticias</span></a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -231,7 +221,7 @@ and (max-width: 480px) {
     </div>
     
   <main>
-    <h1>Es hora de pasar a la acción: Máster en Innovación en Periodismo</h1>
+    <h2>Es hora de pasar a la acción</h2>
     <p>En el MIP pensamos que el aprendizaje debe estar orientado a la acción. Por eso, las <a href="http://mip.umh.es/programa.htm" title="Programa">asignaturas</a> y los <a href="http://mip.umh.es/profesores.htm" title="Profesionales, emprendedores, académicos">profesores</a> se han diseñado para que te ayuden a salir de la zona de comfort. Idea, diseña, emprende: Si quieres desarrollar un proyecto atractivo y viable, te mereces <a href="http://mip.umh.es" title="Inicio">un título como éste</a>.</p>
     <hr />
 	<div class="photoset">
@@ -386,10 +376,41 @@ and (max-width: 480px) {
     </div>
 	</div>
 </main>
+        <footer class="footer">
+            
+        <div class="container-narrow">
+            <div class="bs-links">
+                <ul class="quick-links">
+                <li class="follow-btn">
+                    <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.1359159993.html#_=1360092958455&amp;id=twitter-widget-1&amp;lang=es&amp;screen_name=mipumh&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" style="width: 234px; height: 20px;" title="Twitter Follow Button" data-twttr-rendered="true"></iframe>
+                  </li>
+                  <li class="tweet-btn">
+                    <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.1359159993.html#_=1360092958447&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=es&amp;original_referer=http%3A%2F%2Fmip.umh.es%2F&amp;related=mdo%3Amipumh&amp;size=m&amp;text=MIP%20-%20M%C3%A1ster%20de%20Innovaci%C3%B3n%20en%20Periodismo&amp;url=http%3A%2F%2Fmip.umh.es&amp;via=mipumh" class="twitter-share-button twitter-count-horizontal" style="width: 118px; height: 20px;" title="Twitter Tweet Button" data-twttr-rendered="true"></iframe>
+                  </li>
+                </ul>
+            </div>
+            
+                Título Oficial de la <a href="http://umh.es">UMH</a> diseñado y organizado por el equipo de
+                <a href="http://periodismo.umh.es/">Periodismo UMH</a>, <p> en colaboración con
+                <a href="http://www.parquecientificoumh.es/fundacion-quorum">Fundación Quorum</a>,
+                <a href="http://www.naudelainnovacio.com/">Nau de la Innovació</a>,
+                y <a href="http://gicov.umh.es/">Gicov</a>.</p>
+        </div>
 
+     </div>
+     </footer>
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
   <script src="js/index.js"></script>
-
+ <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-32796571-1', 'umh.es');
+          ga('send', 'pageview');
+        
+        </script>
 </body>
 
 </html>
